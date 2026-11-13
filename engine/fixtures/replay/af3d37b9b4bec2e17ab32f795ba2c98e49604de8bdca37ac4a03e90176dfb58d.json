@@ -1,0 +1,33 @@
+{
+  "contexts": [
+    {
+      "id": "root",
+      "parentId": null,
+      "description": "Forum post"
+    }
+  ],
+  "classifications": [
+    {
+      "label": "forum",
+      "contextId": "root",
+      "evidence": "Forum / General discussion"
+    }
+  ],
+  "mentions": [
+    {
+      "id": "m1",
+      "name": "Atlas",
+      "role": "author",
+      "contextId": "root",
+      "evidence": "Posted by Atlas"
+    },
+    {
+      "id": "m2",
+      "name": "Echo",
+      "role": "mentioned",
+      "contextId": "root",
+      "evidence": "Thanks to Echo for the help!"
+    }
+  ],
+  "warnings": []
+}

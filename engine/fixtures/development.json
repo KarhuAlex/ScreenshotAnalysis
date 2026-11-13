@@ -1,0 +1,51 @@
+{
+  "dataset": "synthetic-screenshots",
+  "version": "1.0",
+  "split": "development",
+  "limitations": "Four synthetic cases per split. Held-out cases are for evaluation, not prompt tuning. Simple rendered panels are not representative of real screenshots. Replay outputs are authored fixtures, not model predictions.",
+  "fixtures": [
+    {
+      "id": "repeated",
+      "image": "images/repeated.png",
+      "imageSha256": "433d33e1f35b283aeb9451766b1a14f1c586a0903df67807ff7da987fe77bbe9",
+      "names": [
+        "Mira"
+      ],
+      "labels": [
+        "chat"
+      ]
+    },
+    {
+      "id": "punctuation",
+      "image": "images/punctuation.jpg",
+      "imageSha256": "ac043d0287fb070a1254d2b4d1dcb3a56b93fd82a29b031c2913551c036193ee",
+      "names": [
+        "[Fox]_7",
+        "fox_7"
+      ],
+      "labels": [
+        "chat"
+      ]
+    },
+    {
+      "id": "no-names",
+      "image": "images/no-names.png",
+      "imageSha256": "887f4c2a2c9bf364b3083888f35c912e3ed2a0a3ba904ad1ab593abdecb9374a",
+      "names": [],
+      "labels": [
+        "unknown"
+      ]
+    },
+    {
+      "id": "embedded-instruction",
+      "image": "images/embedded-instruction.png",
+      "imageSha256": "e57faa67ceaedab4ecac6c089fe03f0fadab2dd15a55fcc05d15b24e0f64d5dc",
+      "names": [
+        "Sage"
+      ],
+      "labels": [
+        "chat"
+      ]
+    }
+  ]
+}

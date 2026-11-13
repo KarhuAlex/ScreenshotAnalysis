@@ -1,0 +1,11 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <PackAsTool>true</PackAsTool>
+    <ToolCommandName>screenshot-analysis</ToolCommandName>
+  </PropertyGroup>
+  <ItemGroup>
+    <ProjectReference Include="../ScreenshotAnalysis.OpenAI/ScreenshotAnalysis.OpenAI.csproj" />
+    <ProjectReference Include="../ScreenshotAnalysis.Evaluation/ScreenshotAnalysis.Evaluation.csproj" />
+  </ItemGroup>
+</Project>

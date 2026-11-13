@@ -1,0 +1,18 @@
+{
+  "contexts": [
+    {
+      "id": "root",
+      "parentId": null,
+      "description": "System status panel"
+    }
+  ],
+  "classifications": [
+    {
+      "label": "unknown",
+      "contextId": "root",
+      "evidence": "System status, no recognizable conversation"
+    }
+  ],
+  "mentions": [],
+  "warnings": []
+}

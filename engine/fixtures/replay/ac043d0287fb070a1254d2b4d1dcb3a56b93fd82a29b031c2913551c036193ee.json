@@ -1,0 +1,33 @@
+{
+  "contexts": [
+    {
+      "id": "root",
+      "parentId": null,
+      "description": "Chat window"
+    }
+  ],
+  "classifications": [
+    {
+      "label": "chat",
+      "contextId": "root",
+      "evidence": "Chat conversation header and messages"
+    }
+  ],
+  "mentions": [
+    {
+      "id": "m1",
+      "name": "[Fox]_7",
+      "role": "author",
+      "contextId": "root",
+      "evidence": "[Fox]_7: Hello"
+    },
+    {
+      "id": "m2",
+      "name": "fox_7",
+      "role": "author",
+      "contextId": "root",
+      "evidence": "fox_7: Welcome back"
+    }
+  ],
+  "warnings": []
+}

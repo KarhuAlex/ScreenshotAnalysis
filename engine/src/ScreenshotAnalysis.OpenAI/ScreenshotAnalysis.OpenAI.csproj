@@ -1,0 +1,3 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <ItemGroup><ProjectReference Include="../ScreenshotAnalysis.Core/ScreenshotAnalysis.Core.csproj" /></ItemGroup>
+</Project>

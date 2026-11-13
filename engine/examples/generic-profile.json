@@ -1,0 +1,12 @@
+{
+  "id": "generic-screenshots",
+  "version": "1.0",
+  "labels": [
+    { "id": "chat", "description": "A messaging or chat conversation." },
+    { "id": "game", "description": "A video game screen or in-game interface." },
+    { "id": "forum", "description": "A forum discussion with posts." },
+    { "id": "social-post", "description": "A social-network post." },
+    { "id": "unknown", "description": "Content whose category is not identifiable." }
+  ],
+  "guidance": "Extract readable screen names from authors, message text and interfaces. Nested screenshots retain their own contexts. Exclude generic deleted-account placeholders. Do not infer real-world identities. Classify content only when visually supported."
+}

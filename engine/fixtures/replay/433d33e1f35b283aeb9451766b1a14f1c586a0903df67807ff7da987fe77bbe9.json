@@ -1,0 +1,40 @@
+{
+  "contexts": [
+    {
+      "id": "root",
+      "parentId": null,
+      "description": "Chat window"
+    }
+  ],
+  "classifications": [
+    {
+      "label": "chat",
+      "contextId": "root",
+      "evidence": "Chat conversation header and messages"
+    }
+  ],
+  "mentions": [
+    {
+      "id": "m1",
+      "name": "Mira",
+      "role": "author",
+      "contextId": "root",
+      "evidence": "Mira (42): Hello"
+    },
+    {
+      "id": "m2",
+      "name": "Mira",
+      "role": "author",
+      "contextId": "root",
+      "evidence": "Mira (42): Are you there?"
+    },
+    {
+      "id": "m3",
+      "name": "Mira",
+      "role": "author",
+      "contextId": "root",
+      "evidence": "Mira (42): See you soon"
+    }
+  ],
+  "warnings": []
+}

@@ -1,0 +1,53 @@
+{
+  "dataset": "synthetic-screenshots",
+  "version": "1.0",
+  "split": "held-out",
+  "limitations": "Four synthetic cases per split. Held-out cases are for evaluation, not prompt tuning. Simple rendered panels are not representative of real screenshots. Replay outputs are authored fixtures, not model predictions.",
+  "fixtures": [
+    {
+      "id": "nested",
+      "image": "images/nested.png",
+      "imageSha256": "9f8a31af1c59c12d06a794deafa6c866ddf3f255b161cee08444ad792db561ca",
+      "names": [
+        "Rowan",
+        "Nova-3"
+      ],
+      "labels": [
+        "chat",
+        "game"
+      ]
+    },
+    {
+      "id": "deleted-placeholder",
+      "image": "images/deleted-placeholder.webp",
+      "imageSha256": "980458b6c0dbb61240de94e6fae3867ac90cf42bf6ddc5131e79e0286cedc249",
+      "names": [
+        "River"
+      ],
+      "labels": [
+        "chat"
+      ]
+    },
+    {
+      "id": "illegible",
+      "image": "images/illegible.png",
+      "imageSha256": "e4423e8c168d4fc2e4fc1a69cebafc78d24d7786bcabad2a54a5f9c5407544dd",
+      "names": [],
+      "labels": [
+        "chat"
+      ]
+    },
+    {
+      "id": "forum-mention",
+      "image": "images/forum-mention.png",
+      "imageSha256": "af3d37b9b4bec2e17ab32f795ba2c98e49604de8bdca37ac4a03e90176dfb58d",
+      "names": [
+        "Atlas",
+        "Echo"
+      ],
+      "labels": [
+        "forum"
+      ]
+    }
+  ]
+}

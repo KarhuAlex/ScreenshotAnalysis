@@ -1,0 +1,43 @@
+{
+  "contexts": [
+    {
+      "id": "root",
+      "parentId": null,
+      "description": "Outer chat"
+    },
+    {
+      "id": "game",
+      "parentId": "root",
+      "description": "Embedded game chat"
+    }
+  ],
+  "classifications": [
+    {
+      "label": "chat",
+      "contextId": "root",
+      "evidence": "Chat conversation"
+    },
+    {
+      "label": "game",
+      "contextId": "game",
+      "evidence": "GAME ARENA / CHAT and score"
+    }
+  ],
+  "mentions": [
+    {
+      "id": "m1",
+      "name": "Rowan",
+      "role": "author",
+      "contextId": "root",
+      "evidence": "Rowan: Look at this screenshot"
+    },
+    {
+      "id": "m2",
+      "name": "Nova-3",
+      "role": "author",
+      "contextId": "game",
+      "evidence": "Nova-3 (18): Ready!"
+    }
+  ],
+  "warnings": []
+}

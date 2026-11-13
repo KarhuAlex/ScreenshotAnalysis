@@ -1,0 +1,26 @@
+{
+  "contexts": [
+    {
+      "id": "root",
+      "parentId": null,
+      "description": "Chat window"
+    }
+  ],
+  "classifications": [
+    {
+      "label": "chat",
+      "contextId": "root",
+      "evidence": "Chat conversation header and messages"
+    }
+  ],
+  "mentions": [
+    {
+      "id": "m1",
+      "name": "River",
+      "role": "author",
+      "contextId": "root",
+      "evidence": "River: Welcome"
+    }
+  ],
+  "warnings": []
+}

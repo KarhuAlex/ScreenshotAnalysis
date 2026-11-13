@@ -1,0 +1,20 @@
+{
+  "contexts": [
+    {
+      "id": "root",
+      "parentId": null,
+      "description": "Chat window"
+    }
+  ],
+  "classifications": [
+    {
+      "label": "chat",
+      "contextId": "root",
+      "evidence": "Chat conversation"
+    }
+  ],
+  "mentions": [],
+  "warnings": [
+    "The author name is illegible; no name inferred."
+  ]
+}
